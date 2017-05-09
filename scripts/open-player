@@ -1,0 +1,3 @@
+#!/bin/bash
+
+chromium "https://player.twitch.tv/?channel=$1"
