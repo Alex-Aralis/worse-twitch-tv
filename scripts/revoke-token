@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+
+curl -X POST "https://api.twitch.tv/kraken/oauth2/revoke?client_id=$CLIENT_ID&client_secret=$CLIENT_SECRET"
