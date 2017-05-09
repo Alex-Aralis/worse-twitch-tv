@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source .env
+
+$BROWSER "http://www.twitch.tv/$1/chat"
