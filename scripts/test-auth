@@ -2,4 +2,4 @@
 
 source .env
 
-chromium "https://api.twitch.tv/kraken/oauth2/authorize?response_type=token&client_id=$CLIENT_ID&redirect_uri=http://localhost:8000&scope=viewing_activity_read&state=teststate&force_verify=true"
+$BROWSER "https://api.twitch.tv/kraken/oauth2/authorize?response_type=token&client_id=$CLIENT_ID&redirect_uri=http://localhost:8000&scope=viewing_activity_read&state=teststate&force_verify=true"
